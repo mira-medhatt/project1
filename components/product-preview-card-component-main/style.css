@@ -1,0 +1,134 @@
+/**************reset***************/
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;   
+
+}
+a{
+
+    text-decoration: none;
+
+}
+img {
+    max-width: 100% ;
+}
+ul {
+    list-style: none;
+}
+
+
+/**************general***************/
+@font-face {
+    font-family:" Montserrat" ;
+    src: url(fonts/Montserrat-Thin.ttf);
+    font-weight:500,700 ;
+}
+@font-face {
+    font-family:" Fraunces" ;
+    src: url(fonts/Fraunces_9pt_Soft-Bold.ttf);
+    font-weight: 700;
+}
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%) ;
+    --Cream:hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-gray-ishblue:hsl(228, 12%, 48%);
+    --White:hsl(0,0%, 100%);
+}
+body{
+    background-color: var(--Cream);
+    text-align: center ;
+    font-size: 14px;
+    font-family: "fraunces" "Montserrat";
+}
+h1{
+    color: var(--Very-dark-blue);
+    font-size: 2em;
+    margin-bottom: 0.4em;
+    text-align: left;
+    font-family:" Fraunces" ;
+    src: url(fonts/Fraunces_9pt_Soft-Bold.ttf);
+    font-weight: 700;
+    
+}
+
+/**************main***************/
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color:var(--White) ;
+    width: 90%;
+   
+    margin-bottom: 0em;
+    border-radius: 0.625em;
+    -webkit-border-radius:0.625em ;
+    -moz-border-radius : 0.625em;
+    -ms-border-radius : 0.625em;
+    -o-border-radius :0.625em;
+    border-top-right-radius: 0.625em;
+    border-top-left-radius: 0.625em;
+    box-shadow: 0 3px 9px 2px var(--Cream); 
+     
+
+    }
+    .box img {
+       width: 100% ;
+      padding: 0em;
+    }
+    .imgg{
+        padding: 0em;
+        border-top-right-radius: 0.625em;
+        border-top-left-radius: 0.625em;
+    }
+    .groupp{
+        padding: 0.5em 1em 1em 1em;
+    }
+
+.perf {
+    color: var(--Dark-gray-ishblue);
+    text-align: left;
+    font-family:" Montserrat" ;
+    src: url(fonts/Montserrat-Thin.ttf);
+    font-weight: 700;
+    font-size: 0.7em;
+    margin-bottom: 0.4em;
+    margin-top:0.4em ;
+    padding-top: 0.9em;
+}
+.parg {
+    color: var(--Dark-gray-ishblue);
+    text-align: left;
+    font-family:" Montserrat" ;
+    src: url(fonts/Montserrat-Thin.ttf);
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 0.4em;
+}
+ .f {
+    color: var(--Dark-cyan);
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    font-family:" Fraunces" ;
+    src: url(fonts/Fraunces_9pt_Soft-Bold.ttf);
+    font-weight: 700; 
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+
+
+ }
+ .s{
+    color: var(--Dark-gray-ishblue);
+    text-align: left;
+    font-family:" Montserrat" ;
+    src: url(fonts/Montserrat-Thin.ttf);
+    font-weight: 700;
+    font-size: 0.8em;
+ }
+/**************media query***************/
